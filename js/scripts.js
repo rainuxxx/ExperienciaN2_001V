@@ -75,7 +75,7 @@
 }
   function validacion()
 {
-	nom= document.getElementById('nombre').value;
+	nom= document.getElementById('nombree').value;
 
 	if(nom == null || nom.length==0 || /^\s+$/.test(nom))
 	{
